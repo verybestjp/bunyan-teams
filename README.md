@@ -15,8 +15,7 @@ const BunyanTeams = require('bunyan-teams');
 const log = bunyan.createLogger({
 	name: "inventory-service",
 	stream: new BunyanTeams({
-		webhook_url: "https://outlook.office.com/webhook/ba5.....",
-		fetcher,
+		webhook_url: "https://outlook.office.com/webhook/ba5....."
 	}),
 });
 
