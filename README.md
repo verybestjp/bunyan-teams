@@ -8,7 +8,7 @@ Add incoming webhook for teams.
 1. Install Bunyan:  `yarn add bunyan`
 1. Install Bunyan Teams:  `yarn add bunyan-teams`
 
-```
+```javascript
 const bunyan = require('bunyan');
 const BunyanTeams = require('bunyan-teams');
 
