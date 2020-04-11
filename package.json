@@ -1,6 +1,6 @@
 {
   "name": "bunyan-teams",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bunyan stream for ms teams incoming webhook",
   "main": "lib/index.js",
   "repository": "https://github.com/ryanhs/bunyan-teams",
@@ -19,7 +19,9 @@
   "dependencies": {
     "node-fetch": "^2.6.0"
   },
-  "engines" : { "node" : ">=8.11" },
+  "engines": {
+    "node": ">=8.11"
+  },
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js . --fix --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
     "test": "NODE_ENV=development node --trace-warnings node_modules/.bin/jest --passWithNoTests --coverage --runInBand",
